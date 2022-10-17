@@ -1,26 +1,23 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Hongjian Shi
-    - name: Date of Birth
-      value: 9th December 1991
-    - name: Languages
-      value: Chinese, English
-
-- title: Education
+- title: University of Washington
   type: time_table
   contents:
-    - title: Ph.D. in Statistics
-      institution: University of Washington
+    - title: STAT390: Statistical Methods in Engineering and Science (TA)
       year: 2021
-    - title: B.S. in Mathematics
-      institution: Peking University
-      year: 2014
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: PostDoc
-      institution: Technical University of Munich
-      year: 2021 - 2023
+    - title: STAT498: Introduction to Stochastic Processes II (TA)
+      year: 2021
+    - title: STAT491: Introduction to Stochastic Processes (TA)
+      year: 2020
+    - title: STAT390: Statistical Methods in Engineering and Science (TA)
+      year: 2020
+    - title: STAT435: Introduction to Statistical Machine Learning (TA)
+      year: 2020
+    - title: STAT570: Advanced Regression Methods for Independent Data (TA)
+      year: 2019
+    - title: STAT311: Elements of Statistical Methods (TA)
+      year: 2019
+    - title: STAT571: Advanced Regression Methods for Dependent Data (TA)
+      year: 2019
+    - title: STAT491: Introduction to Stochastic Processes (TA)
+      year: 2018
+    - title: STAT390: Statistical Methods in Engineering and Science (TA)
+      year: 2016-2018
