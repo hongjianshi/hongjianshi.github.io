@@ -1,0 +1,26 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Hongjian Shi
+    - name: Date of Birth
+      value: 9th December 1991
+    - name: Languages
+      value: Chinese, English
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Statistics
+      institution: University of Washington
+      year: 2021
+    - title: B.S. in Mathematics
+      institution: Peking University
+      year: 2014
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: PostDoc
+      institution: Technical University of Munich
+      year: 2021 - 2023
