@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
@@ -18,4 +18,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Postdoc at the Technical University of Munich under the direction of Prof. Mathias Drton. Prior to this, I obtained my Ph.D. in Statistics in 2021 at the University of Washington, where I was advised by Prof. Fang Han.
+I am currently a Postdoc at the Technical University of Munich under the direction of Prof. Mathias Drton. Prior to this, I obtained my Ph.D. in Statistics in 2021 at the University of Washington, where I was advised by <a href='https://sites.stat.washington.edu/people/fanghan/'>Prof. Fang Han</a>.
