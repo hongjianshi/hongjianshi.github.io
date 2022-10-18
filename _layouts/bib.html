@@ -123,7 +123,7 @@
           {%- if entry.volume -%}
             {%- capture entryvolume -%}{{ " " }}{{entry.volume}}{%- endcapture -%}
           {%- endif -%}
-          {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
+          {%- capture periodical -%}{{ entrytype }}&#44;{{ entryvolume }}&#44;{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
           <div class="periodical">
             {{ periodical | strip }}
           </div>
