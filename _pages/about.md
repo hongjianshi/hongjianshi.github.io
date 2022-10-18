@@ -18,4 +18,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Postdoc at the Technical University of Munich under the direction of <a href='https://www.math.cit.tum.de/en/statistics/people/mathias-drton/'>Mathias Drton</a>. Prior to this, I obtained my Ph.D. in Statistics in 2021 at the University of Washington, where I was advised by <a href='https://sites.stat.washington.edu/people/fanghan/'>Fang Han</a>. The research projects I have finished so far are concerned with a fundamental problem in statistics, namely, how to properly measure stochastic dependence between random quantities. My research pays much attention to statistical inference that is based on ranking data points and analyzing the ranks rather than the original data.
+I am currently a Postdoc at the Technical University of Munich under the direction of <a href='https://www.math.cit.tum.de/en/statistics/people/mathias-drton/'>Mathias Drton</a>. Prior to this, I obtained my Ph.D. in Statistics in 2021 at the University of Washington, where I was advised by <a href='https://sites.stat.washington.edu/people/fanghan/'>Fang Han</a>. 
+
+The research projects I have finished so far are concerned with a fundamental problem in statistics, namely, how to properly measure stochastic dependence between random quantities. My research pays much attention to statistical inference that is based on ranking data points and analyzing the ranks rather than the original data.
