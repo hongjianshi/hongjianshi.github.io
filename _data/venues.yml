@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"AoS":
+  url: https://projecteuclid.org/journals/annals-of-statistics
 
-"PhysRev":
-  url: https://journals.aps.org/
+"JASA":
+  url: https://www.tandfonline.com/journals/uasa20
+
+"Biometrika":
+  url: https://academic.oup.com/biomet
+
+"Bernoulli":
+  url: https://projecteuclid.org/journals/bernoulli
