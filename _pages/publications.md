@@ -21,7 +21,7 @@ nav_order: 1
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
-<h1>PhD thesis</h1>
+<h1>Ph.D. thesis</h1>
 
 {% bibliography -f thesis %}
 
