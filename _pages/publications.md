@@ -3,7 +3,6 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years: [2025, 2023, 2022, 2020]
 nav: true
 nav_order: 1
 ---
@@ -17,7 +16,6 @@ nav_order: 1
 <h1>journal articles</h1>
 
 {% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
 
