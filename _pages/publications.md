@@ -14,7 +14,7 @@ nav_order: 1
 
 {% for y in [2025, 2024] %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f preprints -q @*[year={{y}}]* %}
 {% endfor %}
 
 <h1>journal articles</h1>
