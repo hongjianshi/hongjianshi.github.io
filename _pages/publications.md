@@ -4,6 +4,7 @@ permalink: /publications/
 title: publications
 description: 
 years: [2025, 2024, 2023, 2022, 2020]
+yearx: [2025, 2024]
 nav: true
 nav_order: 1
 ---
@@ -12,7 +13,7 @@ nav_order: 1
 
 <h1>preprints</h1>
 
-{% for y in page.years %}
+{% for y in page.yearx %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f preprints -q @*[year={{y}}]* %}
 {% endfor %}
