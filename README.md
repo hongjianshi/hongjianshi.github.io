@@ -413,12 +413,12 @@ There are several custom bibtex keywords that you can use to affect how the entr
 - `arxiv`: Adds a link to the Arxiv website (Note: only add the arxiv identifier here - the link is generated automatically)
 - `bibtex_show`: Adds a "Bib" button that expands a hidden text field with the full bibliography entry
 - `html`: Inserts a "HTML" button redirecting to the user-specified link
-- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `pdf`: Adds a "PDF" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /papers/ directory)
+- `supp`: Adds a "Supp" button to a specified file (if a full link is not specified, the file will be assumed to be placed in the /papers/ directory)
 - `blog`: Adds a "Blog" button redirecting to the specified link
 - `code`: Adds a "Code" button redirecting to the specified link
-- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
-- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /assets/pdf/ directory)
+- `poster`: Adds a "Poster" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /papers/ directory)
+- `slides`: Adds a "Slides" button redirecting to a specified file (if a full link is not specified, the file will be assumed to be placed in the /papers/ directory)
 - `website`: Adds a "Website" button redirecting to the specified link
    
 You can implement your own buttons by editing the bib.html file.
