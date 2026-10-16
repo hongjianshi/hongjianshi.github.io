@@ -295,7 +295,9 @@ footer.sticky-bottom {
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 12px;
-  color: $grey-color;
+  .container {
+    color: $grey-color;
+  }
 }
 
 // CV
