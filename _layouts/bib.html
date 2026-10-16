@@ -134,6 +134,9 @@
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0 same-tab" role="button">arXiv</a>
           {%- endif %}
+          {%- if entry.ssrn %}
+            <a href="https://ssrn.com/abstract={{ entry.ssrn }}" class="btn btn-sm z-depth-0 same-tab" role="button">SSRN</a>
+          {%- endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
