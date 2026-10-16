@@ -20,6 +20,15 @@ body.fixed-top-nav {
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
+  // Push the footer to the bottom of the window on short pages.
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  > .container,
+  > .post {
+    flex: 1 0 auto;
+  }
 }
 
 .container {
