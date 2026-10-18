@@ -9,6 +9,10 @@ on:
     branches:
       - master
       - main
+  # Rebuild daily so the GitHub contribution calendar stays current.
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
 
 jobs:
   deploy:

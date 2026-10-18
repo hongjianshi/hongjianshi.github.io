@@ -348,6 +348,72 @@ footer.sticky-bottom {
   }
 }
 
+// GitHub contribution calendar (rendered by _plugins/github-contributions.rb)
+.contrib {
+  margin-bottom: 1rem;
+
+  .contrib-total {
+    margin-bottom: 0.5rem;
+  }
+
+  // On narrow screens, scroll sideways and start at the most recent weeks.
+  .contrib-scroll {
+    overflow-x: auto;
+    direction: rtl;
+    padding-bottom: 6px;
+  }
+
+  .contrib-graph {
+    direction: ltr;
+    display: grid;
+    gap: 3px;
+    min-width: 640px;
+  }
+
+  .contrib-month,
+  .contrib-weekday,
+  .contrib-legend {
+    color: $grey-color;
+    font-size: 12px;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
+  .contrib-month {
+    padding-bottom: 4px;
+  }
+
+  .contrib-weekday {
+    align-self: center;
+    padding-right: 6px;
+  }
+
+  .contrib-day {
+    aspect-ratio: 1;
+    border-radius: 2px;
+    background-color: var(--global-divider-color);
+
+    &[data-level="1"] { background-color: rgba($cyan-color, 0.35); }
+    &[data-level="2"] { background-color: rgba($cyan-color, 0.6); }
+    &[data-level="3"] { background-color: rgba($cyan-color, 0.8); }
+    &[data-level="4"] { background-color: $cyan-color; }
+  }
+
+  .contrib-legend {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3px;
+    margin-top: 8px;
+
+    .contrib-day {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
 // Blog
 
 .header-bar {
