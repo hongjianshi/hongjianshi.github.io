@@ -680,6 +680,13 @@ footer.sticky-bottom {
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
+      div.bibtex.hidden pre {
+        // wrap long lines instead of scrolling sideways; a single token longer
+        // than the block (such as a URL) may break anywhere
+        white-space: pre-wrap;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+      }
     }
   }
 }
