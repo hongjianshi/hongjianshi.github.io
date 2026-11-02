@@ -694,9 +694,17 @@ footer.sticky-bottom {
       div.bibtex.hidden pre {
         // wrap long lines instead of scrolling sideways; a single token longer
         // than the block (such as a URL) may break anywhere
+        text-align: left; // .hidden justifies text, which would stretch wrapped lines
         white-space: pre-wrap;
         overflow-wrap: anywhere;
         word-break: break-word;
+        // each line is a block with a hanging indent, so a wrapped row
+        // continues under the value column (see _plugins/hangingBibtexLines.rb)
+        .bibline {
+          display: block;
+          padding-left: $bibtex-indent;
+          text-indent: -$bibtex-indent;
+        }
       }
     }
   }

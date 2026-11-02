@@ -192,7 +192,8 @@
           {% if entry.bibtex_show -%}
           <!-- Hidden bibtex block -->
           <div class="bibtex hidden">
-            {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex | alignBibtexKeys | wrapBibtexLines }}{% endhighlight %}
+            {% capture bibtex_html %}{% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex | alignBibtexKeys | wrapBibtexLines }}{% endhighlight %}{% endcapture %}
+            {{ bibtex_html | hangingBibtexLines }}
           </div>
           {%- endif %}
         </div>
