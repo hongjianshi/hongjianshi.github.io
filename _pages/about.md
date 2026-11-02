@@ -15,7 +15,6 @@ profile:
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
 ---
 
 I am currently a <a href='https://www.math.cit.tum.de/en/math/people/academic-staff/hongjian-shi/'>Postdoc</a> at the <a href='https://www.math.cit.tum.de/en/math/statistics/'>Statistics Research group</a>, <a href='https://www.cit.tum.de/en/cit/home//'>TUM School of Computation, Information and Technology (CIT)</a>, the <a href='https://www.tum.de/en/'>Technical University of Munich</a> under the direction of <a href='https://www.math.cit.tum.de/en/math/people/professors/drton-mathias/'>Mathias Drton</a>. Prior to this, I obtained my Ph.D. in <a href='https://stat.uw.edu/'>Statistics</a> in 2021 at the <a href='https://www.washington.edu/'>University of Washington</a>, where I was advised by <a href='https://sites.stat.washington.edu/people/fanghan/'>Fang Han</a>.

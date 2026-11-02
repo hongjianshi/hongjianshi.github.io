@@ -272,6 +272,12 @@ blockquote {
 }
 
 
+// Social icons above the footer (rendered by _layouts/default.html)
+.social.social-footer {
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
 // Footer
 footer.fixed-bottom {
   background-color: var(--global-footer-bg-color);
@@ -292,6 +298,11 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid var(--global-divider-color);
+  margin-top: 3rem;
+  // when the social icons sit above the footer, keep them close to its grey line
+  .social-footer + & {
+    margin-top: 0.5rem;
+  }
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 12px;
