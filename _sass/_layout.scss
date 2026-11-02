@@ -17,6 +17,13 @@ body.fixed-top-nav {
   padding-top: 56px;
 }
 
+html {
+  // Reserve the vertical scrollbar's space on every page, so that pages with a
+  // scrollbar (publications, teaching) and without one (about) do not shift
+  // their centred content, icons and footer text sideways against each other.
+  scrollbar-gutter: stable;
+}
+
 body.sticky-bottom-footer {
   // Remove padding below footer.
   padding-bottom: 0;
