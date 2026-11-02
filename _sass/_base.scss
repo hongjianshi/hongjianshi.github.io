@@ -628,6 +628,14 @@ footer.sticky-bottom {
               text-decoration: none;
           }
         }
+        // The owner's own name links to the homepage and keeps the solid
+        // underline that marked it before; coauthor links stay dashed.
+        a.author-self {
+          border-bottom-style: solid;
+          em {
+            font-style: normal;
+          }
+        }
         > em {
           border-bottom: 1px solid;
           font-style: normal;
