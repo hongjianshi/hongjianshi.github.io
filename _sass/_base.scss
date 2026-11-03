@@ -692,10 +692,12 @@ footer.sticky-bottom {
         a.author-self {
           border-bottom: none;
           text-decoration: underline wavy var(--global-theme-color);
+          text-decoration-thickness: 1px; // as thin as the coauthors' straight line
           text-decoration-skip-ink: none;
           text-underline-offset: 0.2em;
           &:hover {
             text-decoration: underline wavy var(--global-theme-color);
+            text-decoration-thickness: 1px;
           }
           em {
             font-style: normal;
