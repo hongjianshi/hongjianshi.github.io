@@ -679,18 +679,24 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
       .author {
+        // coauthor links: a solid underline
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          border-bottom: 1px solid var(--global-theme-color);
           &:hover {
-              border-bottom-style: solid;
               text-decoration: none;
           }
         }
-        // The owner's own name links to the homepage and keeps the solid
-        // underline that marked it before; coauthor links stay dashed. The
+        // The owner's own name links to the homepage and is marked by a wavy
+        // underline (a text decoration, since a border cannot be wavy). The
         // global rule for em sets the text colour, so make it take the link's.
         a.author-self {
-          border-bottom-style: solid;
+          border-bottom: none;
+          text-decoration: underline wavy var(--global-theme-color);
+          text-decoration-skip-ink: none;
+          text-underline-offset: 0.2em;
+          &:hover {
+            text-decoration: underline wavy var(--global-theme-color);
+          }
           em {
             font-style: normal;
             color: inherit;
