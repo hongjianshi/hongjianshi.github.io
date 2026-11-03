@@ -5,8 +5,9 @@
 
 // Dimensions
 $max-content-width: {{ site.max_width }};
-// Value column of the bibtex shown behind the "Bib" button: two spaces, the key, " = "
-$bibtex-indent: {{ site.bibtex_key_width | default: 10 | plus: 5 }}ch;
+// Text column of the bibtex shown behind the "Bib" button: two spaces, the key,
+// " = " and the opening brace, so wrapped lines hang under the text inside the braces
+$bibtex-indent: {{ site.bibtex_key_width | default: 10 | plus: 6 }}ch;
 
 @import
   "variables",
