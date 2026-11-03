@@ -331,9 +331,10 @@ footer.sticky-bottom {
   }
 }
 
-// Teaching
+// Teaching and repositories (the same boxes on both pages)
 
-.teaching {
+.teaching,
+.repositories {
   margin-bottom: 40px;
   
   .card {
@@ -353,9 +354,66 @@ footer.sticky-bottom {
 
 // Repositories
 
-@media (min-width: 768px) {
-  .repo {
+.repo {
+  width: 100%;
+  @media (min-width: 768px) {
     max-width: 50%;
+  }
+
+  // Repository card rendered at build time by _plugins/github-repos.rb
+  .repo-card {
+    display: block;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    text-align: left;
+    color: var(--global-text-color);
+
+    &:hover {
+      text-decoration: none;
+      border-color: var(--global-theme-color);
+      .repo-card-title {
+        text-decoration: underline;
+      }
+    }
+
+    .repo-card-title {
+      display: block;
+      color: var(--global-theme-color);
+      font-weight: 600;
+      i {
+        margin-right: 0.4rem;
+      }
+    }
+
+    .repo-card-description {
+      display: block;
+      color: var(--global-text-color-light);
+      font-size: 0.875rem;
+      margin: 0.4rem 0 0.6rem;
+    }
+
+    .repo-card-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.8rem;
+      color: var(--global-text-color-light);
+      span {
+        color: inherit; // the global rule for span would reset it to the text colour
+      }
+      i {
+        margin-right: 0.3rem;
+      }
+      .repo-card-dot {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin-right: 0.35rem;
+        vertical-align: -1px;
+      }
+    }
   }
 }
 
